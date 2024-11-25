@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.example.horocapp.R
 import com.example.horocapp.databinding.FragmentLuckBinding
 import com.example.horocapp.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
     private var _binding: FragmentPalmistryBinding? = null
     private val binding get() = _binding!!
